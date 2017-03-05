@@ -135,7 +135,7 @@ final class DefinitionAnalyzer
     ) : bool {
         $arguments = $definition->getArguments();
         if (! count($arguments)) {
-            return true;
+            return false;
         }
 
         $i = 0;
